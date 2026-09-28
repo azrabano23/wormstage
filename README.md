@@ -50,7 +50,7 @@ From [`results/ledger.jsonl`](results/ledger.jsonl), checked by
 ## Use
 
 ```bash
-pip install -e ../loopgraph -e ".[test]"
+pip install -e ".[test]"
 pytest                               # 31 tests, offline; the extract is committed
 wormstage develop                    # 9 stages, rest and ASH
 wormstage ablate                     # L1 extrasynaptic drive
